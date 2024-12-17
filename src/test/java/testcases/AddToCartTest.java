@@ -29,6 +29,10 @@ public class AddToCartTest extends BaseClass {
 		vp.checkOutButton();
 		CheckOutPage cp = new CheckOutPage();
 		cp.selectBtn();
+		PaymentDetailsPage pg = new PaymentDetailsPage();
+		pg.paymentFuction();
+		String paymassg = pg.paymentSuccessMassage("Your Order is Confirmed!!");
+		Assert.assertEquals(paymassg, "Your Order is Confirmed!!"); 
 
 	}
 

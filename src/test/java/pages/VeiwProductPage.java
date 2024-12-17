@@ -51,6 +51,7 @@ public class VeiwProductPage {
 			String name = medicines.get(i).getText();
 			if (name.contains(medicinename)) {
 				veiwMedicines.get(i).click();
+				AddToCartBtn.click();
 				break;
 
 			}

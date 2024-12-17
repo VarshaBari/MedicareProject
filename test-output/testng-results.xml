@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T11:13:33 UTC" name="Default suite" finished-at="2024-12-17T11:13:54 UTC" duration-ms="20846">
+  <suite started-at="2024-12-17T11:24:57 UTC" name="Default suite" finished-at="2024-12-17T11:25:13 UTC" duration-ms="15642">
     <groups>
     </groups>
-    <test started-at="2024-12-17T11:13:33 UTC" name="Default test" finished-at="2024-12-17T11:13:54 UTC" duration-ms="20846">
+    <test started-at="2024-12-17T11:24:57 UTC" name="Default test" finished-at="2024-12-17T11:25:13 UTC" duration-ms="15642">
       <class name="testcases.AddToCartTest">
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.AddToCartTest@750e2b97]" started-at="2024-12-17T11:13:33 UTC" name="SetUpDriver" finished-at="2024-12-17T11:13:39 UTC" duration-ms="5366" status="PASS">
+        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.AddToCartTest@3646a422]" started-at="2024-12-17T11:24:57 UTC" name="SetUpDriver" finished-at="2024-12-17T11:25:03 UTC" duration-ms="5769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC05_multipleAddedToCart()[pri:0, instance:testcases.AddToCartTest@750e2b97]" started-at="2024-12-17T11:13:39 UTC" name="TC05_multipleAddedToCart" finished-at="2024-12-17T11:13:54 UTC" duration-ms="15392" status="PASS">
+        <test-method signature="TC04_AddToCart()[pri:0, instance:testcases.AddToCartTest@3646a422]" started-at="2024-12-17T11:25:03 UTC" name="TC04_AddToCart" finished-at="2024-12-17T11:25:13 UTC" duration-ms="9745" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC05_multipleAddedToCart -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.AddToCartTest@750e2b97]" started-at="2024-12-17T11:13:54 UTC" name="TearDown" finished-at="2024-12-17T11:13:54 UTC" duration-ms="3" status="PASS">
+        </test-method> <!-- TC04_AddToCart -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.AddToCartTest@3646a422]" started-at="2024-12-17T11:25:13 UTC" name="TearDown" finished-at="2024-12-17T11:25:13 UTC" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
